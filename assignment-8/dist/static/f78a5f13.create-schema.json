@@ -1,0 +1,40 @@
+[
+  {
+    "fields": [
+      {
+        "name": "id",
+        "type": "number",
+        "title": "ID"
+      },
+      {
+        "name": "title",
+        "type": "string"
+      },
+      {
+        "name": "price",
+        "type": "number"
+      },
+      {
+        "name": "description",
+        "type": "string"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "name": "image",
+        "type": "image"
+      },
+      {
+        "name": "rating",
+        "type": "number"
+      },
+      {
+        "name": "category",
+        "type": "string"
+      }
+    ],
+    "name": "products",
+    "type": "document"
+  }
+]
